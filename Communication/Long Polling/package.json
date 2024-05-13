@@ -1,12 +1,15 @@
 {
   "name": "long-polling",
   "version": "1.0.0",
-  "description": "",
+  "description": "- Single long lived connection\r - Connection is open until you get new data / timeout\r - Cons : Large no. of connection more the load on server",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
